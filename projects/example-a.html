@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Fictional Online Magazine</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .container {
+        display: flex;
+      }
+      article {
+        flex: 3;
+        padding: 20px;
+      }
+      aside {
+        flex: 1;
+        padding: 20px;
+        background-color: #f4f4f4;
+      }
+      address {
+        margin-top: 20px;
+        font-style: normal;
+      }
+      .audio-player {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Welcome to Fictional Online Magazine</h1>
+      <nav>
+        <a href="#home">Home</a> | <a href="#about">About</a> |
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+    <div class="container">
+      <article>
+        <h2>Latest Article</h2>
+        <p>
+          Welcome to the latest edition of our online magazine. In this issue,
+          we explore the impact of
+          <abbr title="Artificial Intelligence">AI</abbr> on various industries.
+        </p>
+        <p>
+          We also delve into the importance of understanding key terms and
+          concepts that shape our world today.
+        </p>
+        <p>Here's a map showing the areas we cover:</p>
+        <img
+          src="https://via.placeholder.com/400x200"
+          usemap="#magazine-map"
+          alt="Magazine Coverage Map"
+        />
+        <map name="magazine-map">
+          <area
+            shape="rect"
+            coords="34,44,270,350"
+            href="https://example.com/region1"
+            alt="Region 1"
+          />
+          <area
+            shape="rect"
+            coords="290,172,333,250"
+            href="https://example.com/region2"
+            alt="Region 2"
+          />
+        </map>
+      </article>
+      <aside>
+        <h2>About Us</h2>
+        <p>
+          Fictional Online Magazine is your go-to source for the latest in
+          technology, science, and culture.
+        </p>
+        <div class="audio-player">
+          <h3>Listen to our Podcast</h3>
+          <audio controls>
+            <source
+              src="https://www.example.com/podcast.mp3"
+              type="audio/mpeg"
+            />
+            Your browser does not support the audio element.
+          </audio>
+        </div>
+      </aside>
+    </div>
+    <footer>
+      <address>
+        <strong>Contact Us:</strong><br />
+        Fictional Online Magazine<br />
+        123 Magazine Lane, Fictional City, FC 12345<br />
+        Email:
+        <a href="mailto:info@fictionalmagazine.com"
+          >info@fictionalmagazine.com</a
+        >
+      </address>
+    </footer>
+  </body>
+</html>
