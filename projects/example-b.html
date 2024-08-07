@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tag Demonstrations</title>
+    <base href="https://example.com/" target="_blank">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        blockquote {
+            margin: 20px 0;
+            padding: 10px 20px;
+            background: #e9ecef;
+            border-left: 5px solid #ccc;
+        }
+        button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>HTML Tag Demonstrations</h1>
+        
+        <h2>&lt;base&gt; Tag</h2>
+        <p>The <code>&lt;base&gt;</code> tag sets the base URL for all relative links in the document. In this example, any relative URL will point to "https://example.com/".</p>
+        <p>Example: <a href="images/pic.jpg">Image</a></p>
+        
+        <h2>&lt;bdi&gt; Tag</h2>
+        <p>The <code>&lt;bdi&gt;</code> (Bidirectional Isolation) tag isolates text that may be different from the surrounding text direction. This is useful for user-generated content where the text direction is unknown.</p>
+        <p>Example: Username: <bdi>إسم مستخدم</bdi></p>
+        
+        <h2>&lt;bdo&gt; Tag</h2>
+        <p>The <code>&lt;bdo&gt;</code> (Bidirectional Override) tag explicitly sets the direction of the text it contains. You can use the <code>dir</code> attribute to specify "ltr" (left-to-right) or "rtl" (right-to-left).</p>
+        <p>Example: <bdo dir="rtl">This text is right-to-left.</bdo></p>
+        
+        <h2>&lt;blockquote&gt; Tag</h2>
+        <p>The <code>&lt;blockquote&gt;</code> tag is used to define a block of text that is quoted from another source. It usually renders with some indentation.</p>
+        <blockquote cite="https://www.example.com">
+            This is a blockquote from another source. It is typically indented and can include a citation URL.
+        </blockquote>
+        
+        <h2>&lt;body&gt; Tag</h2>
+        <p>The <code>&lt;body&gt;</code> tag defines the main content of an HTML document. All the content that you see on the webpage is contained within the <code>&lt;body&gt;</code> tag.</p>
+        
+        <h2>&lt;br&gt; Tag</h2>
+        <p>The <code>&lt;br&gt;</code> (line break) tag inserts a line break. It is useful for writing poems or addresses where the division of lines is significant.</p>
+        <p>Example:</p>
+        <p>Line 1<br>Line 2<br>Line 3</p>
+        
+        <h2>&lt;button&gt; Tag</h2>
+        <p>The <code>&lt;button&gt;</code> tag defines a clickable button. You can use it to submit forms or trigger JavaScript actions.</p>
+        <button type="button" onclick="alert('Button clicked!')">Click Me!</button>
+    </div>
+</body>
+</html>
