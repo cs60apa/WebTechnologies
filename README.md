@@ -21,3 +21,22 @@ Some HTML Tags with B:
 - `<body>`: Defines the main content of an HTML document.
 - `<br>`: Inserts a line break.
 - `<button>`: Creates a clickable button.
+
+Some HTML Tgas with C's & D's
+
+- `<canvas>`	Used to draw graphics, on the fly, via scripting (usually JavaScript).
+- `<caption>`	Defines a table caption.
+- `<cite>`	Defines the title of a work.
+- `<code>`	Defines a piece of computer code.
+- `<col>`	Specifies column properties for each column within a <colgroup> element.
+- `<colgroup>`	Specifies a group of one or more columns in a table for formatting.
+- `<data>`	Links the given content with a machine-readable translation.
+- `<datalist>`	Specifies a list of pre-defined options for input controls.
+- `<dd>`	Defines a description/value of a term in a description list.
+- `<del>`	Defines text that has been deleted from a document.
+- `<details>`	Defines additional details that the user can view or hide.
+- `<dfn>`	Represents the defining instance of a term.
+- `<dialog>`	Defines a dialog box or window.
+- `<div>`	Defines a section or division in a document.
+- `<dl>`	Defines a description list.
+- `<dt>`	Defines a term/name in a description list.
