@@ -11,10 +11,11 @@ body {
 
 .container {
   background: #fff;
-  padding: 20px;
+  padding: 40px;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   width: 300px;
+
 }
 
 h1 {
@@ -24,17 +25,16 @@ h1 {
   color: #333;
 }
 
-.task-input {
+.task-input, .add-btn {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  box-sizing: border-box;
 }
 
 .add-btn {
-  width: 100%;
-  padding: 10px;
   background-color: #007bff;
   color: white;
   border: none;
