@@ -4,7 +4,7 @@
 
 Some HTML Tags with A:
 
-- `<a>`: Used for navigation links in the header and email link in the footer.
+- `<a>` known as anchor: Used for navigation links in the header and email link in the footer.
 - `<abbr>`: Used to define the abbreviation "AI" with a title attribute providing the full term "Artificial Intelligence".
 - `<address>`: Used to display the contact information in the footer.
 - `<area>`: Used in conjunction with `<map>` to create clickable areas on an image.
